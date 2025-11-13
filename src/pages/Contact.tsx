@@ -33,7 +33,7 @@ const Contact = () => {
                 </div>
                 <h3 className="font-semibold text-foreground mb-2">Email</h3>
                 <p className="text-muted-foreground text-sm">
-                  deepakary@gmail.com
+                  televisorconnect@gmail.com
                 </p>
               </Card>
               
@@ -43,7 +43,7 @@ const Contact = () => {
                 </div>
                 <h3 className="font-semibold text-foreground mb-2">Phone</h3>
                 <p className="text-muted-foreground text-sm">
-                  +91 98115 10831
+                  +91 9250017568
                 </p>
               </Card>
               

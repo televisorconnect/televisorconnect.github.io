@@ -40,12 +40,22 @@ const Services = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-serif font-bold text-navy mb-4">
-            Our Core Services
+            Our Services
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Comprehensive regulatory consulting services for authorizations, compliance management, 
-            and strategic guidance under India's evolving telecommunications framework.
-          </p>
+          <div className="text-lg text-muted-foreground max-w-4xl mx-auto space-y-4 text-left">
+            <p>
+              With the advent of The Telecommunications Act, 2023, and the onset of authorisation regime, the licensing and policy scenario in the country has undergone a major overhaul. The earlier prevalent licensing regime would transition to rule based regime where in authorisation has been made simpler and terms and conditions will be provided in rules. The scope of earlier licenses has also undergone changes.
+            </p>
+            <p className="font-semibold">We offer our services for the following:</p>
+            <ul className="list-decimal list-inside space-y-2 pl-4">
+              <li>In order to understand the regime as per business requirements and suggest the optimal authorisation required in line with scope of services.</li>
+              <li>And manage the life cycle of authorisation regime, right from seeking approval to compliance management, license fee payment etc.</li>
+              <li>Represent policy level and operational issues at appropriate level.</li>
+              <li>Security audit and license inspection support</li>
+              <li>Compliance trackers to manage the compliances of rules on proactive basis</li>
+              <li>Support in statutory reporting</li>
+            </ul>
+          </div>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">

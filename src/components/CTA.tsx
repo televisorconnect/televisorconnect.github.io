@@ -17,27 +17,33 @@ const CTA = () => {
               size="lg" 
               variant="secondary"
               className="text-lg"
+              asChild
             >
-              <Mail className="mr-2 h-5 w-5" />
-              Email Us
+              <a href="mailto:televisorconnect@gmail.com">
+                <Mail className="mr-2 h-5 w-5" />
+                Email Us
+              </a>
             </Button>
             <Button 
               size="lg" 
-              variant="outline"
-              className="text-lg border-primary-foreground text-primary-foreground hover:bg-primary-foreground/10"
+              variant="secondary"
+              className="text-lg"
+              asChild
             >
-              <Phone className="mr-2 h-5 w-5" />
-              Schedule a Call
+              <a href="https://calendly.com/televisorconnect/30min" target="_blank" rel="noopener noreferrer">
+                <Phone className="mr-2 h-5 w-5" />
+                Schedule a Call
+              </a>
             </Button>
           </div>
           <div className="border-t border-primary-foreground/20 pt-8 space-y-2">
             <p className="opacity-75">
               <Mail className="inline h-4 w-4 mr-2" />
-              contact@televisorconnect.com
+              televisorconnect@gmail.com
             </p>
             <p className="opacity-75">
               <Phone className="inline h-4 w-4 mr-2" />
-              +1 (555) 123-4567
+              +91 9250017568
             </p>
           </div>
         </div>
