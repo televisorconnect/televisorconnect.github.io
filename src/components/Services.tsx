@@ -56,9 +56,9 @@ const Services = () => {
             </p>
             <p className="font-semibold">We offer our services for the following:</p>
             <ul className="list-decimal list-inside space-y-2 pl-4">
-              <li>In order to understand the regime as per business requirements and suggest the optimal authorisation required in line with scope of services.</li>
-              <li>And manage the life cycle of authorisation regime, right from seeking approval to compliance management, license fee payment etc.</li>
-              <li>Represent policy level and operational issues at appropriate level.</li>
+              <li>Understand the regime as per business requirements and suggest the optimal authorisation required in line with scope of services</li>
+              <li>Manage the life cycle of authorisation regime, right from seeking approval to compliance management, license fee payment etc</li>
+              <li>Represent policy level and operational issues at appropriate level</li>
               <li>Security audit and license inspection support</li>
               <li>Compliance trackers to manage the compliances of rules on proactive basis</li>
               <li>Support in statutory reporting</li>
