@@ -23,6 +23,23 @@
 
   <body>
     <div id="root"></div>
+    <!-- If GitHub Pages served this page as a 404 redirect, it will include
+         ?redirected_from=<originalPath>. Restore that path so the client-side
+         router (BrowserRouter) sees the intended URL on boot. -->
+    <script>
+      (function(){
+        try {
+          var params = new URLSearchParams(location.search);
+          var p = params.get('redirected_from');
+          if (p) {
+            // Restore the original path (including query/hash) without reloading.
+            history.replaceState({}, '', decodeURIComponent(p));
+          }
+        } catch (e) {
+          // ignore — best-effort only
+        }
+      })();
+    </script>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

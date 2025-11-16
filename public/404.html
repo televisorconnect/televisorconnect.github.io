@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Page not found — redirecting…</title>
+  </head>
+  <body>
+    <h1>Redirecting...</h1>
+    <script>
+      // Preserve the current path and redirect to the site's index while
+      // passing the original path as a query parameter. GitHub Pages serves
+      // this file for unknown routes — the app will read `redirected_from` on
+      // load and restore the client-side route.
+      (function(){
+        try {
+          var p = location.pathname + location.search + location.hash;
+          var target = '/?redirected_from=' + encodeURIComponent(p);
+          location.replace(target);
+        } catch (e) {
+          // fallback: go to root
+          location.replace('/');
+        }
+      })();
+    </script>
+  </body>
+</html>
