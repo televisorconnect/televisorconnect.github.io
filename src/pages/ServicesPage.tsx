@@ -9,20 +9,6 @@ const ServicesPage = () => {
     <div className="min-h-screen">
       <Header />
       <main>
-        {/* Page Header */}
-        <section className="pt-32 pb-16 bg-muted">
-          <div className="container mx-auto px-6">
-            <div className="max-w-3xl">
-              <h1 className="text-5xl md:text-6xl font-serif font-bold text-navy mb-6">
-                Services
-              </h1>
-              <p className="text-xl text-muted-foreground leading-relaxed">
-                Expert regulatory consulting for India's evolving telecommunications framework.
-              </p>
-            </div>
-          </div>
-        </section>
-        
         <Services />
         
         {/* CTA Section */}

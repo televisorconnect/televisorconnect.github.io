@@ -20,6 +20,9 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
+            <Link to="/important-information" className="text-foreground hover:text-primary transition-colors">
+              Important Information
+            </Link>
             <Link to="/services" className="text-foreground hover:text-primary transition-colors">
               Services
             </Link>
@@ -47,6 +50,13 @@ const Header = () => {
         {/* Mobile Navigation */}
         {isMenuOpen && (
           <nav className="md:hidden pt-4 pb-2 flex flex-col gap-4">
+            <Link
+              to="/important-information"
+              className="text-foreground hover:text-primary transition-colors"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Important Information
+            </Link>
             <Link
               to="/services"
               className="text-foreground hover:text-primary transition-colors"

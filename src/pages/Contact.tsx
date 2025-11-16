@@ -17,7 +17,7 @@ const Contact = () => {
                 Contact Us
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed">
-                Ready to navigate India's telecom autorization, rules and compliance landscape? Get in touch with us.
+                Ready to navigate India's telecom regulatory landscape? Get in touch with our team of experts.
               </p>
             </div>
           </div>

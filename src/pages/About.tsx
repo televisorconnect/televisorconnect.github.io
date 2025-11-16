@@ -54,6 +54,43 @@ const About = () => {
           </div>
         </section>
         
+        {/* Industries Served Section */}
+        <section className="py-24 bg-background">
+          <div className="container mx-auto px-6">
+            <div className="max-w-5xl mx-auto">
+              <h2 className="text-4xl md:text-5xl font-serif font-bold text-navy mb-4 text-center">
+                Industries Served
+              </h2>
+              <p className="text-lg text-muted-foreground mb-12 text-center max-w-3xl mx-auto">
+                We provide specialized regulatory and compliance solutions across the telecommunications ecosystem
+              </p>
+              
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                {[
+                  "ISPs",
+                  "NLD and ILD Operators",
+                  "IP-1 Providers",
+                  "FTTH Operators",
+                  "CPaaS, UCaaS and NCaaS Players",
+                  "International Carriers",
+                  "OSPs",
+                  "IoT/M2M Companies",
+                  "Tower Providers",
+                  "Fibre Providers",
+                  "Digital Communication Infrastructure Providers"
+                ].map((industry, index) => (
+                  <div
+                    key={index}
+                    className="bg-muted p-5 rounded-lg border border-border hover:border-primary/50 transition-all duration-300 hover:shadow-md"
+                  >
+                    <p className="text-foreground font-medium text-center">{industry}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+        
         <Clients />
         
         {/* CTA Section */}

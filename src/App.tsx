@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import ServicesPage from "./pages/ServicesPage";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import ImportantInformation from "./pages/ImportantInformation";
 import NotFound from "./pages/NotFound";
 import ScrollToTop from "./components/ScrollToTop";
 
@@ -21,6 +22,7 @@ const App = () => (
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/important-information" element={<ImportantInformation />} />
           <Route path="/services" element={<ServicesPage />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />

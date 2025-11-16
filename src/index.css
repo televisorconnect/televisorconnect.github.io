@@ -46,8 +46,8 @@ All colors MUST be HSL.
     --gray-warm: 30 10% 50%;
     
     /* Typography */
-    --font-serif: 'Playfair Display', serif;
-    --font-sans: 'Inter', sans-serif;
+    --font-serif: 'Space Grotesk', sans-serif;
+    --font-sans: 'DM Sans', sans-serif;
 
     --sidebar-background: 0 0% 98%;
 
