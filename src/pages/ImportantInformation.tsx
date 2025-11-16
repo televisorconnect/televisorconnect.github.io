@@ -44,6 +44,15 @@ const circulars = [
     summary: "Establishes comprehensive rules for authorization to establish, operate, maintain or expand telecommunication networks. Covers network infrastructure requirements, technical standards, security obligations, and operational guidelines under the new telecommunications framework.",
     pdfUrl: "/circulars/Telecommunication_Network_Rules_2025.pdf"
   }
+  ,
+  {
+    id: 6,
+    title: "Telecommunications Act, 2023",
+    date: "December 24, 2023",
+    source: "DoT",
+    summary: "The Telecommunications Act, 2023 modernises and consolidates India's telecom legal framework by providing a unified authorisation regime and clearer powers for spectrum assignment and management. The Act is designed to promote investment and infrastructure rollout by simplifying authorisation pathways and reducing fragmentation across rules, while strengthening governance, technical and security safeguards. Its practical impact on industry structure and ease of doing business will depend on detailed secondary regulations, transparent spectrum allocation mechanisms, proportionate compliance requirements and predictable transitional arrangements to minimise disruption for existing operators.",
+    pdfUrl: "https://share.google/uIIgxFPm99YfrcobI"
+  }
 ];
 
 const ImportantInformation = () => {
@@ -65,42 +74,7 @@ const ImportantInformation = () => {
           </div>
         </section>
 
-        {/* Policy Analysis Section */}
-        <section className="py-16 bg-muted">
-          <div className="container mx-auto px-6">
-            <div className="max-w-5xl mx-auto space-y-6">
-              <Card className="hover:shadow-lg transition-shadow">
-                <CardHeader>
-                  <div className="flex items-start justify-between gap-4">
-                    <div className="flex-1">
-                      <div className="flex items-center gap-2 mb-2">
-                        <FileText className="h-5 w-5 text-primary" />
-                        <span className="text-sm font-medium text-primary">Policy Analysis</span>
-                        <span className="text-sm text-muted-foreground">•</span>
-                        <span className="text-sm text-muted-foreground">December 24, 2023</span>
-                      </div>
-                      <CardTitle className="text-2xl font-serif mb-2">
-                        Telecommunications policy and authorisation regime — critical analysis
-                      </CardTitle>
-                    </div>
-                    <a
-                      href="https://share.google/uIIgxFPm99YfrcobI"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-1 text-primary hover:text-primary/80 transition-colors shrink-0"
-                    >
-                      <span className="text-sm font-medium">View PDF</span>
-                      <ExternalLink className="h-4 w-4" />
-                    </a>
-                  </div>
-                  <CardDescription className="text-base leading-relaxed">
-                    This analysis reviews the December 24, 2023 amendments which consolidate and reform the law governing the development, expansion and operation of telecommunication services and networks, including the assignment of spectrum. It evaluates the likely impacts on industry structure, the clarity and practicality of the new authorisation regime, and implications for ease of doing business — highlighting potential opportunities for investment and growth as well as areas where compliance complexity and transitional frictions may add cost for operators.
-                  </CardDescription>
-                </CardHeader>
-              </Card>
-            </div>
-          </div>
-        </section>
+        
 
         {/* Circulars Section */}
         <section className="py-16 bg-background">
