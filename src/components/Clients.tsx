@@ -4,7 +4,7 @@ const clients = [
   "Digital Infrastructure Providers Association (DIPA)",
   "Virtual Network Operators Association of India (VNOAI)",
   "Third Bridge",
-  "Nularity",
+  "Knowlarity Communications",
 ];
 
 const Clients = () => {
