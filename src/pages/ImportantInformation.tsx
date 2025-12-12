@@ -6,6 +6,14 @@ import { FileText, ExternalLink } from "lucide-react";
 const circulars = [
   {
     id: 1,
+    title: "Digital Consent Acquistion Pilot by TRAI",
+    date: "December 12, 2025",
+    source: "TRAI",
+    summary: "TRAI has initiated a trial for digital consent acquisition with select customers. Designated short code 12700 will send SMS messages containing a link to a consent portal where customers can review and modify previously given consents; the portal will pre-fill existing choices to simplify updates. The trial will validate the user experience, security, and consent-management workflows ahead of any wider rollout.",
+    pdfUrl: "https://trai.gov.in/sites/default/files/2025-12/PR_No.150of2025.pdf"
+  },
+  {
+    id: 2,
     title: "Press Release: Interim suspension of new licence applications",
     date: "October 24, 2025",
     source: "MoC",
@@ -13,7 +21,7 @@ const circulars = [
     pdfUrl: "https://share.google/uq0LliFmNxLqoZEDc"
   },
   {
-    id: 2,
+    id: 3,
     title: "Draft Telecommunications (Migration) Rules, 2025",
     date: "September 19, 2025",
     source: "DoT",
@@ -21,7 +29,7 @@ const circulars = [
     pdfUrl: "/circulars/Draft_Migration_rules_Sep_25.pdf"
   },
   {
-    id: 3,
+    id: 4,
     title: "Draft Telecommunications (Authorisation for Captive Telecommunication Service) Rules, 2025",
     date: "September 10, 2025",
     source: "DoT",
@@ -29,7 +37,7 @@ const circulars = [
     pdfUrl: "/circulars/Captive_Telecommunication_Service.pdf"
   },
   {
-    id: 4,
+    id: 5,
     title: "Draft Telecommunications (Authorisation for Provision of Main Telecommunication Services) Rules, 2025",
     date: "September 6, 2025",
     source: "DoT",
@@ -37,7 +45,7 @@ const circulars = [
     pdfUrl: "/circulars/Main_Telecommunication_Services.pdf"
   },
   {
-    id: 5,
+    id: 6,
     title: "Draft Telecommunications (Authorisation for Provision of Miscellaneous Telecommunication Services) Rules, 2025",
     date: "September 9, 2025",
     source: "DoT",
@@ -45,7 +53,7 @@ const circulars = [
     pdfUrl: "/circulars/Miscellaneous_Telecommunication_Services.pdf"
   },
   {
-    id: 6,
+    id: 7,
     title: "Draft Telecommunications (Authorisation for Telecommunication Network) Rules, 2025",
     date: "September 2025",
     source: "DoT",
@@ -54,7 +62,7 @@ const circulars = [
   }
   ,
   {
-    id: 7,
+    id: 8,
     title: "Telecommunications Act, 2023",
     date: "December 24, 2023",
     source: "DoT",
